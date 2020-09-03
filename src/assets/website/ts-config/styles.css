@@ -1,0 +1,215 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet');
+@font-face {
+  font-family: 'Avenir';
+  src: url('/assets/website/fonts/Avenir/avenir-light-webfont.woff2') format('woff2'), url('./assets/fonts/Avenir/avenir-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/assets/website/fonts/fontawesome/fontawesome-webfont.woff2') format('woff2'), url('./assets/fonts/fontawesome/fontawesome-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AbsolutProCond-Light';
+  src: url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.woff') format('woff'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.svg#AbsolutProCond-Light') format('svg'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AbsolutProCond-Light';
+  src: url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.woff') format('woff'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.svg#AbsolutProCond-Light') format('svg'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AbsolutProCond-Bold';
+  src: url('/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.woff') format('woff'), url('./assets/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.svg#AbsolutProCond-Bold') format('svg'), url('./assets/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.eot'), url('./assets/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'impactreg';
+  src: url('/assets/website/fonts/impactreg/impactreg.eot');
+  src: local('impactreg'), url('./assets/fonts/impactreg/impactreg.woff') format('woff'), url('./assets/fonts/impactreg/impactreg.ttf') format('truetype');
+}
+
+.fontimpact {
+  font-family: 'impactreg' !important;
+}
+
+.font-family-menu {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100% !important;
+  /* background: #000; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  line-height: normal;
+  overflow-x: hidden;
+  font-family: "Avenir";
+  color: #000
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  color: #000;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+span,
+p {
+  line-height: normal;
+  font-family: 'Avenir';
+}
+
+h5.AbsolutProCond-Light {
+  font-family: "AbsolutProCond-Light";
+  text-align: left;
+  font-size: 50px;
+}
+
+.pageloader {
+  max-width: 200px;
+  max-height: 500px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.setTransition1 {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: transform 0.8s linear;
+}
+
+.setTransition2 {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: transform 0.8s;
+}
+
+.setTransition3 {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: transform 0.8s;
+}
+
+.setTransition4 {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: transform 0.8s;
+}
+
+.setTransition5 {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: transform 0.8s;
+}
+
+.setTransition6 {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: transform 0.8s;
+}
+.grayscale {
+  opacity: 0.8;
+}
+.home-contactus h4 a {
+  text-decoration: none;
+}
+.video_logo{
+  width: 10%;
+}
+.search-icon img {
+  position: absolute;
+  z-index: 999;
+  top: 40px;
+  right: 100px;
+}
+
+.footer-links h4 {
+  font-family: 'Avenir';
+  color: #9ca3a9;
+  font-size: 15px;
+}
+
+.footer-social-media span i {
+  color: #000;
+  border: 1px solid #000;
+  padding: 3px;
+}
+
+.footer-social-media span a {
+  text-decoration: none;
+}
+
+.footer-social-media {
+  padding: 5px 0 0 15px;
+}
+
+.footer-social-media .linkedin a i {
+  margin: 0px !important;
+  border-radius: 15px !important;
+  padding: 5px 5px 5px 5px !important;
+}
+
+.footer-social-media .facebook a i {
+  margin: 0px 0 0 15px !important;
+  border-radius: 15px !important;
+  padding: 5px 7px 5px 7px !important;
+}
+
+.footer-video-link a img {
+  padding: 8px 0px 0px 0px !important;
+  float: right;
+}
+
+@-webkit-keyframes zoomin {
+  0% {}
+
+  100% {
+    -webkit-transform: scale(1.1);
+  }
+}
+
+
+@media (min-width: 340px) and (max-width: 425px){
+  .modal.in .modal-dialog{
+    width: auto !important;
+  }
+  .modal-body[_ngcontent-c1] {
+    width:100% !important;
+}
+
+}
+@media (min-width: 426px) and (max-width: 1024px){
+ .modal.in .modal-dialog{
+    width: auto !important;
+  }
+  .modal-body[_ngcontent-c1] {
+    width:100% !important;
+}
+
+}

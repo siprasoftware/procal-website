@@ -1,0 +1,387 @@
+.position-fixed {
+  position: fixed !important;
+}
+
+.heading-overlay {
+  position: absolute;
+  width: 100%;
+  height: 98%;
+  background: rgb(255, 255, 255, 0.6);
+  left: -2%;
+}
+.aboutus-content-outer.privacy_wrap {
+  margin:  3% 0% 0 0%;
+}
+.aboutus-content-outer .aboutus-content-middle {
+ padding: 30px;
+}
+.backgrop {
+  background: transparent;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 99;
+}
+.privacy-content-inner p {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+}
+.sublist{text-align: left; margin-bottom: 15px;   font-size: 16px;}
+.sublist li{ margin-bottom: 5px; font-family: 'Avenir';  font-size: 16px;}
+.overlay-h2 {
+  color: #676767 !important;
+  font-size: 120px !important;
+  text-align: center;
+  opacity: 1;
+  padding-top: 30%;
+  line-height: 99px;
+  overflow: hidden;
+}
+
+.pt55 {
+  padding-top: 55px !important;
+}
+
+.content-bg {
+  position: relative;
+}
+
+.bookademo button {
+  position: fixed;
+  top: 62%;
+  right: -43px;
+  transform: rotate(90deg);
+  padding: 5px 16px 5px 16px;
+}
+
+.sidenavdemo {
+  height: 45%;
+  width: 0;
+  position: fixed;
+  z-index: 499;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+  overflow: hidden;
+  transition: all .5s ease-in-out;
+}
+
+.sidenavdemo h4 {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.sidenavdemo input {
+  width: 80%;
+  padding: 5px 0px 15px 5px;
+  margin: 15px 0px 25px 20px;
+}
+
+.sidenavdemo textarea {
+  width: 80%;
+  padding: 5px 0px 0 5px;
+  margin: 0 0px 0px 20px;
+}
+
+.sidenavdemo a i {
+  color: #3e3d3b;
+}
+
+.sidenavdemo ul {
+  list-style: none;
+}
+
+.sidenavdemo ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
+  ;
+}
+
+.sidenavdemo a {
+  color: white;
+  opacity: 1;
+}
+
+.sidenavdemo .closenav-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-left: 50px;
+  font-size: 60px
+}
+
+.demobtns {
+  width: 80%;
+  margin: 0 0 0 20px;
+}
+
+.demoback {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+
+.demosend {
+  padding: 10px 22px 10px 22px;
+  background: #1a84c6;
+  color: white;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* High end Tab */
+
+@media (min-width: 768px) and (max-width: 889px) {
+  .aboutus-content h1 {
+    overflow-x: inherit !important;
+    font-size: 53px;
+    color: #3399cc;
+    padding: 0px !important;
+    margin: 15% 0 0 0 !important;
+  }
+
+  .aboutus-content-outer {
+    border: 1px solid black;
+    margin: 3% 10% 0 10%;
+  }
+
+  .page-nav1 a {
+    display: none;
+  }
+  .sidenav {
+    overflow: overlay;
+   
+  }
+
+
+}
+
+/* Low end tab  */
+@media (min-width: 481px) and (max-width: 767px) and (orientation : portrait) {
+  .back-home-btn button {
+    margin: 27px 0 0 0px;
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: lighter;
+    outline: none;
+  }
+
+  .back-home-btn button span {
+    padding: 6px 10px 6px 10px;
+    border: 1px solid #d6d7d8;
+    margin: 0 0 0 10px;
+    color: #d6d7d8;
+  }
+
+
+  .banne_inner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-position: center;
+    height: 100%;
+  }
+
+  .back-home-btn button {
+    margin: 27px 0 0 0;
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: lighter;
+    position: fixed;
+    z-index: 9999;
+    outline: none;
+  }
+
+  .aboutus-content h1 {
+    overflow-x: inherit !important;
+    font-size: 40px;
+    color: #3399cc;
+    padding: 0px !important;
+    margin: 15% 0 0 0 !important;
+  }
+
+  .overlay-h2[_ngcontent-c1] {
+    color: #676767 !important;
+    font-size: 52px !important;
+    text-align: center;
+    opacity: 1;
+    padding-top: 30%;
+    line-height: 65px;
+    overflow: hidden;
+  }
+
+  .page-nav1 a {
+    display: none;
+  }
+  .sidenav {
+    overflow: overlay;
+   
+  }
+
+
+}
+
+/* moblie media queries */
+@media (min-width: 320px) and (max-width: 480px) and (orientation : portrait) {
+  .sidenav {
+    overflow: overlay;
+   
+  }
+
+  .back-home-btn button {
+    margin: 27px 0 0 0px;
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: lighter;
+    outline: none;
+  }
+
+  .aboutus-content-inner p {
+    text-align: left;
+    color: #000;
+    font-size: 21px;
+    font-weight: lighter;
+  }
+
+  .overlay-h2 {
+    color: #676767 !important;
+    font-size: 61px !important;
+    text-align: center;
+    opacity: 1;
+    padding-top: 30%;
+    line-height: 55px;
+    overflow: hidden;
+    width: 80%;
+    position: fixed;
+  }
+
+  .back-home-btn button span {
+    padding: 6px 10px 6px 10px;
+    border: 1px solid #d6d7d8;
+    margin: 0 0 0 10px;
+    color: #d6d7d8;
+  }
+
+
+  .banne_inner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-position: center;
+    height: 100%;
+  }
+
+  .back-home-btn button {
+    margin: 27px 0 0 0;
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: lighter;
+    position: fixed;
+    z-index: 9999;
+    outline: none;
+  }
+
+  .aboutus-content h1 {
+    overflow-x: inherit !important;
+    font-size: 36px;
+    color: #3399cc;
+    padding: 0px !important;
+    margin: 35% 0 0 0 !important;
+  }
+
+  .page-nav1 a {
+    display: none;
+  }
+
+  .slider__button {
+    opacity: .8;
+    position: fixed;
+    width: 45px;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(0);
+    transform: translateY(-50%) translateX(0);
+    padding: 10px 0;
+    color: #fbfbfb;
+    display: block;
+    z-index: 100;
+    font-family: Tungsten;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .2em;
+    transition: color .3s, width .3s ease-out, -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out, color .3s, width .3s ease-out;
+    transition: transform .3s ease-out, color .3s, width .3s ease-out, -webkit-transform .3s ease-out;
+  }
+
+  .aboutus-content-outer {
+    border: 1px solid black;
+    margin: 3% 10% 0 10%;
+  }
+  .aboutus-content-outer.privacy_wrap {
+    margin:  3% 0% 0 0%;
+  }
+  .aboutus-content-middle {
+    padding: 0px;
+    background-color: white;
+  }
+
+  .aboutus-content-inner {
+    padding: 15px 5px 5px 10px;
+  }
+
+  .overlay-h2[_ngcontent-c1] {
+    color: #676767 !important;
+    font-size: 65px !important;
+    text-align: center;
+    opacity: 1;
+    padding-top: 45%;
+    line-height: 60px;
+    overflow: hidden;
+  }
+
+  .heading-overlay[_ngcontent-c1] {
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    background: rgb(255, 255, 255, 0.6);
+    left: 0%;
+    top: 1%;
+  }
+
+  .slider__button:after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    background: #fbfbfb;
+    position: absolute;
+    top: calc(50% - 1px);
+    transition: width .3s ease-out, background .3s;
+  }
+}
+/* iphoneLandscape  */
+@media only screen  and (min-device-width : 375px)  and (max-device-width : 830px) and (orientation:landscape)
+{ 
+  .sidenav {
+    overflow: overlay;
+   
+  }
+
+}

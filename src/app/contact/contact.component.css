@@ -1,0 +1,166 @@
+.contactus-support{display: none;}
+.selected{display: block;}
+.move-svg svg {
+  height:100%;
+
+   position: relative;
+
+   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+   -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+   animation-name: example;
+   animation-duration: 5s;
+   animation-delay: 0s;
+
+ }
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes example {
+         0%   { transform: translatex(0px) translatey(0px);}
+         100% {transform: translatex(-380px) translatey(50px);
+           width: 100px;
+           height: 100px;
+
+         }
+
+     }
+
+
+     /* Standard syntax */
+     @keyframes example {
+       0%   { transform: translatex(0px) translatey(0px);}
+
+
+         100% {transform: translatex(-380px) translatey(50px);
+           width: 100px;
+           height: 100px;
+         }
+     }
+
+
+     #myInput {
+       background-image: url('../../assets/images/search-icon.png'); /* Add a search icon to input */
+     background-position: 10px 12px; /* Position the search icon */
+     background-repeat: no-repeat; /* Do not repeat the icon image */
+     width: 100%; /* Full-width */
+     background-position: right 18px center;
+     font-size: 13px;
+     padding: 12px 20px 12px 40px;
+
+  border:none;
+     }
+
+     input[type='text']{
+       text-align:center;
+       }
+
+       input[type='text']:focus{
+       text-align:center;
+       }
+
+       .contact-form p input[type = 'text'] {
+         text-align: left;
+       }
+       .menu-items-contactus .search-icon img {
+        position: absolute !important;
+        z-index: 9999 !important;
+        top: 16px !important;
+        right: 80px !important;
+       }
+
+       .contactus-menu img {
+        position: absolute !important;
+        z-index: 9998 !important;
+        top: 11px !important;
+        right: 0px;
+       }
+     #myInput:focus{
+
+       border-radius: 25px;
+       border-color: #4a89bb;
+       outline: #b1b6ba;
+       /* background: black; */
+       border: 1px solid #b1b6ba;
+     }
+ .search-icon {
+   padding: 30px 50px 0 0;
+ }
+
+ .modal-backdrop {
+   background-color: red !important;
+ }
+
+ #overlay {
+   position: fixed;
+   display: none;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0,0,0,0.5);
+   z-index: 2;
+   cursor: pointer;
+ }
+
+ .overlay-search {
+   position: absolute;
+   z-index: 10000;
+   top:30px;
+   right:100px;
+   background-color: rgb(146, 100, 100);
+   color: red;
+ }
+
+
+
+ #video .modal-open .modal {
+   background: black !important;
+   opacity:1;
+ }
+
+ .videoclose  button :hover {
+   -webkit-transform: rotate(0deg);
+   transform: rotate(0deg);
+   font-size: 30px;
+ }
+
+ .videoclose  button span :hover {
+   -webkit-transform: rotate(0deg);
+   transform: rotate(0deg);
+   font-size: 30px;
+   font-weight:700;
+ }
+
+ .closevideo {
+   background: transparent;
+   /* background: none; */
+   border: none;
+ }
+
+ .videoclose  button span{
+   -webkit-transform: rotate(0deg);
+   transform: rotate(0deg);
+   font-size: 30px;
+
+   outline:none;
+ }
+ .video  .modal-open .modal {
+   background: black !important;
+   opacity: 1 !important;
+ }
+ .video  .modal-backdrop.in {
+  opacity: 1;
+ }
+ .backgrop{
+   background: rgba(0,0,0,0.8);
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   display: none;
+   -webkit-transition: 0.5s;
+   transition: 0.5s;
+   z-index: 99;
+ }
