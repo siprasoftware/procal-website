@@ -93,7 +93,8 @@ video::-webkit-media-controls-panel {
 .popup_video {
     width: 100% !important;
     object-fit: fill;
-    height: calc(100vh - 5px);
+    /* height: calc(100vh - 5px); */
+    height: auto;
 }
 
 #video_content {
@@ -222,7 +223,7 @@ video::-webkit-media-controls-panel {
 .entertainment_content button a {
     color: #818080;
 }
-.entertainment_content h4{
+.entertainment_content h4 {
     color: #fff;
 }
 .home_arrow {
@@ -459,10 +460,10 @@ video::-webkit-media-controls-panel {
     letter-spacing: 2px;
     font-family: "SF UI Display";
 }
-.license-section{
-    background: rgb(224,103,48);
+.license-section {
+    background: rgb(224, 103, 48);
 }
-.license-section h5{
+.license-section h5 {
     color: white;
 }
 
@@ -638,7 +639,6 @@ a {
 }
 .reschedule-section ul {
     padding-bottom: 20px;
-    
 }
 .clients_list {
     list-style: none;
@@ -648,7 +648,7 @@ a {
     display: inline-block;
     margin: 0 20px;
 }
-.clients_list li img{
+.clients_list li img {
     width: 180px;
 }
 @keyframes animate {
@@ -666,13 +666,13 @@ a {
         stroke-dashoffset: 0;
     }
 }
-@media (min-width: 475px) and (max-width: 767px){
-    #video_content{
+@media (min-width: 475px) and (max-width: 767px) {
+    #video_content {
         padding-top: 40px !important ;
     }
 }
-@media (min-width: 320px) and (max-width: 475px){
-    #video_content{
+@media (min-width: 320px) and (max-width: 475px) {
+    #video_content {
         padding: 0 !important;
     }
 }
@@ -687,22 +687,27 @@ a {
     .mL20 {
         margin-left: 0px;
     }
-    .header-content p{
+    .header-content p {
         padding-bottom: 0px;
     }
-    .video_rightcontent{
+    .video_rightcontent {
         text-align: center !important;
     }
-    .video_rightcontent h1{
+    .video_rightcontent h1 {
         text-align: center !important;
     }
-    .services_inner .inner_border{
+    .services_inner .inner_border {
         padding: 0px 10px 0 15px;
     }
 }
-@media (min-width: 768px) and (max-width: 1024px){
-    .parent-div{
+@media (min-width: 768px) and (max-width: 1024px) {
+    .parent-div {
         height: auto;
     }
 }
-
+@media (max-width: 999px) and (min-width: 320px) {
+    .modal-body {
+        position: absolute;
+        top: 100px;
+    }
+}
