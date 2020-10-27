@@ -541,7 +541,7 @@ a {
     top: 8px;
     z-index: 9999;
     font-size: 30px;
-    border: 1px solid #1383c6;
+    background-color: white;
     border-radius: 19px;
     padding: 0px 9px;
 }
