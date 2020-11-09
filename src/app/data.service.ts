@@ -1,18 +1,17 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core"
 
 @Injectable()
 export class DataService {
-
-  scrolled: any;
+  scrolled: any
   constructor() {
-    this.scrolled = false;
+    this.scrolled = false
   }
 
   setScrolled(value) {
-    this.scrolled = value;
+    this.scrolled = value
   }
 
   getScrolled() {
-    return this.scrolled;
+    return this.scrolled
   }
 }

@@ -35,7 +35,6 @@ ul {
   padding: 0px;
 }
 
-
 li {
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -51,46 +50,46 @@ li:focus {
 h4 {
   text-align: left;
 }
-.footer-software{
+.footer-software {
   padding-left: 37px;
 }
-.footer-hereforyou{
+.footer-hereforyou {
   padding-left: 28px;
 }
-.footer-about{
+.footer-about {
   padding-left: 47px;
 }
-.footer-find{
+.footer-find {
   padding-left: 26px;
 }
 @media (min-width: 768px) and (max-width: 889px) {
-  .footer-software{
+  .footer-software {
     padding-left: 0px;
   }
-  .footer-hereforyou{
+  .footer-hereforyou {
     padding-left: 0px;
   }
-  .footer-about{
+  .footer-about {
     padding-left: 0px;
   }
-  .footer-find{
+  .footer-find {
     padding-left: 0px;
   }
 }
-@media (min-width:320px) and (max-width:767px) {
-  .footer-software{
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer-software {
     padding-left: 15px;
   }
-  .footer-about{
+  .footer-about {
     padding-left: 15px;
   }
-  .footer-hereforyou{
+  .footer-hereforyou {
     padding-left: 15px;
   }
-  .footer-find{
+  .footer-find {
     padding-left: 15px;
   }
-  .copy-right{
+  .copy-right {
     padding: 0 7px 15px 5px;
   }
 }

@@ -1,45 +1,82 @@
 <div class="backgrop" (click)="closeDemo()" id="backdrop"></div>
 
 <div class="bookademo" id="bkdemobtn">
-  <button (click)="openDemo()">Request a Demo </button>
+  <button (click)="openDemo()">Request a Demo</button>
 </div>
 <div id="bookademotemplate" class="sidenavdemo">
   <form [formGroup]="bookADemoForm" id="bookADemoForm" (ngSubmit)="onSubmit()">
     <div class="flex">
-      <h4> Email Us</h4>
-      <i class="fa fa-times text-left close-icon" (click)='closeDemo()'></i>
-      
+      <h4>Email Us</h4>
+      <i class="fa fa-times text-left close-icon" (click)="closeDemo()"></i>
     </div>
     <div class="col-md-12 margin1">
-      <input type="text" class=" w45 " name="name" formControlName="name" placeholder="Name*">
-      <input type="text" class=" w45 ml10 " placeholder="Email*" name="email" formControlName="email" required>
+      <input
+        type="text"
+        class="w45"
+        name="name"
+        formControlName="name"
+        placeholder="Name*"
+      />
+      <input
+        type="text"
+        class="w45 ml10"
+        placeholder="Email*"
+        name="email"
+        formControlName="email"
+        required
+      />
     </div>
     <div class="col-md-12 margin1">
-      <input type="text" class=" w45" name="phone" formControlName="phone" placeholder="Phone">
-      <input type=" text" class=" w45 ml10" name="prodCompany" formControlName="prodCompany" placeholder="Production Company">
+      <input
+        type="text"
+        class="w45"
+        name="phone"
+        formControlName="phone"
+        placeholder="Phone"
+      />
+      <input
+        type=" text"
+        class="w45 ml10"
+        name="prodCompany"
+        formControlName="prodCompany"
+        placeholder="Production Company"
+      />
     </div>
     <div class="col-md-12 margin1">
-      <input type="text" class="w94" name="typeOfProd" formControlName="typeOfProd" placeholder="Type of Production">
+      <input
+        type="text"
+        class="w94"
+        name="typeOfProd"
+        formControlName="typeOfProd"
+        placeholder="Type of Production"
+      />
     </div>
 
     <div class="col-md-12 margin1">
-      <textarea name="comments" id="comments" type="text" class="w94" formControlName="comments" placeholder="Additional Notes"
-        cols="30" rows="4"></textarea>
+      <textarea
+        name="comments"
+        id="comments"
+        type="text"
+        class="w94"
+        formControlName="comments"
+        placeholder="Additional Notes"
+        cols="30"
+        rows="4"
+      ></textarea>
     </div>
 
-
-
-    <p class=" demobtns ">
-      <button type="submit" class="pull-right demosend"> Send </button> </p>
+    <p class="demobtns">
+      <button type="submit" class="pull-right demosend">Send</button>
+    </p>
   </form>
   <div *ngIf="ackSentbol" class="ack-sent" id="acksent">
-    <p> Your message has been sent <i class="fa fa-check" aria-hidden="true"></i> </p>
-
+    <p>
+      Your message has been sent <i class="fa fa-check" aria-hidden="true"></i>
+    </p>
   </div>
-
 
   <div class="callus">
     <p class="or"><span _ngcontent-c2=""> or </span></p>
-    <p class="col-md-11 call-us-number"> Call Us: 818-562-7866 </p>
+    <p class="col-md-11 call-us-number">Call Us: 818-562-7866</p>
   </div>
 </div>

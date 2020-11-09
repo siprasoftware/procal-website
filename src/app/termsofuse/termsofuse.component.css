@@ -10,11 +10,11 @@
   left: -2%;
 }
 .aboutus-content-outer.privacy_wrap {
-  margin:  3% 0% 0 0%;
+  margin: 3% 0% 0 0%;
 }
 .aboutus-content-outer .aboutus-content-middle {
   padding: 30px;
- }
+}
 .backgrop {
   background: transparent;
   position: fixed;
@@ -69,7 +69,7 @@
 
 .sublist li {
   margin-bottom: 5px;
-  font-family: 'Avenir';
+  font-family: "Avenir";
   font-size: 16px;
 }
 
@@ -85,7 +85,7 @@
   transition: 0.5s;
   padding-top: 30px;
   overflow: hidden;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .sidenavdemo h4 {
@@ -116,8 +116,7 @@
 }
 
 .sidenavdemo ul li {
-  border-bottom: 1px solid rgba(255, 255, 255, .4);
-  ;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .sidenavdemo a {
@@ -130,7 +129,7 @@
   top: 0;
   right: 0;
   margin-left: 50px;
-  font-size: 60px
+  font-size: 60px;
 }
 
 .demobtns {
@@ -299,7 +298,7 @@
     display: none;
   }
   .slider__button {
-    opacity: .8;
+    opacity: 0.8;
     position: fixed;
     width: 45px;
     top: 50%;
@@ -313,17 +312,18 @@
     font-weight: 300;
     text-transform: uppercase;
     font-size: 12px;
-    letter-spacing: .2em;
-    transition: color .3s, width .3s ease-out, -webkit-transform .3s ease-out;
-    transition: transform .3s ease-out, color .3s, width .3s ease-out;
-    transition: transform .3s ease-out, color .3s, width .3s ease-out, -webkit-transform .3s ease-out;
+    letter-spacing: 0.2em;
+    transition: color 0.3s, width 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, color 0.3s, width 0.3s ease-out;
+    transition: transform 0.3s ease-out, color 0.3s, width 0.3s ease-out,
+      -webkit-transform 0.3s ease-out;
   }
   .aboutus-content-outer {
     border: 1px solid black;
     margin: 3% 10% 0 10%;
   }
   .aboutus-content-outer.privacy_wrap {
-    margin:  3% 0% 0 0%;
+    margin: 3% 0% 0 0%;
   }
   .aboutus-content-middle {
     padding: 0px;
@@ -356,6 +356,6 @@
     background: #fbfbfb;
     position: absolute;
     top: calc(50% - 1px);
-    transition: width .3s ease-out, background .3s;
+    transition: width 0.3s ease-out, background 0.3s;
   }
 }

@@ -1,20 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core"
 
 @Component({
-  selector: 'app-pagenotfound',
-  templateUrl: './pagenotfound.component.html',
-  styleUrls: ['./pagenotfound.component.css']
+  selector: "app-pagenotfound",
+  templateUrl: "./pagenotfound.component.html",
+  styleUrls: ["./pagenotfound.component.css"],
 })
 export class PagenotfoundComponent implements OnInit {
+  king: any
 
-  king: any;
+  constructor() {}
 
-  constructor() { }
+  ngOnInit() {}
 
-  ngOnInit() {
+  btnClick = function () {
+    this.router.navigate([""])
   }
-
-  btnClick= function () {
-    this.router.navigate(['']);
-  };
 }
