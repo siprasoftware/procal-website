@@ -1,72 +1,105 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
 @font-face {
-    font-family: 'Avenir';
-    src: url('/assets/website/fonts/Avenir/avenir-light-webfont.woff2') format('woff2'), url('/assets/website/fonts/Avenir/avenir-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Avenir";
+  src: url("/assets/website/fonts/Avenir/avenir-light-webfont.woff2")
+      format("woff2"),
+    url("/assets/website/fonts/Avenir/avenir-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'FontAwesome';
-    src: url('/assets/website/fonts/fontawesome/fontawesome-webfont.woff2') format('woff2'), url('/assets/website/fonts/fontawesome/fontawesome-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "FontAwesome";
+  src: url("/assets/website/fonts/fontawesome/fontawesome-webfont.woff2")
+      format("woff2"),
+    url("/assets/website/fonts/fontawesome/fontawesome-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'AbsolutProCond-Light';
-    src: url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.woff') format('woff'), url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.svg#AbsolutProCond-Light') format('svg'), url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot'), url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "AbsolutProCond-Light";
+  src: url("/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.woff")
+      format("woff"),
+    url("/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.svg#AbsolutProCond-Light")
+      format("svg"),
+    url("/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot"),
+    url("/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'AbsolutProCond-Light';
-    src: url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.woff') format('woff'), url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.svg#AbsolutProCond-Light') format('svg'), url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot'), url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "AbsolutProCond-Light";
+  src: url("/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.woff")
+      format("woff"),
+    url("/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.svg#AbsolutProCond-Light")
+      format("svg"),
+    url("/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot"),
+    url("/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'AbsolutProCond-Bold';
-    src: url('/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.woff') format('woff'), url('/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.svg#AbsolutProCond-Bold') format('svg'), url('/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.eot'), url('/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "AbsolutProCond-Bold";
+  src: url("/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.woff")
+      format("woff"),
+    url("/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.svg#AbsolutProCond-Bold")
+      format("svg"),
+    url("/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.eot"),
+    url("/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'impactreg';
-    src: url('/assets/website/fonts/impactreg/impactreg.eot');
-    src: local('impactreg'), url('/assets/website/fonts/impactreg/impactreg.woff') format('woff'), url('/assets/website/fonts/impactreg/impactreg.ttf') format('truetype');
+  font-family: "impactreg";
+  src: url("/assets/website/fonts/impactreg/impactreg.eot");
+  src: local("impactreg"),
+    url("/assets/website/fonts/impactreg/impactreg.woff") format("woff"),
+    url("/assets/website/fonts/impactreg/impactreg.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'SF UI Display';
-    src: url('../../assets/fonts/sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf');
-    src: local('SF UI Display'), url('../../assets/fonts/sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf') format('otf'), url('../../assets/fonts/sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf') format('truetype');
+  font-family: "SF UI Display";
+  src: url("../../assets/fonts/sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf");
+  src: local("SF UI Display"),
+    url("../../assets/fonts/sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf")
+      format("otf"),
+    url("../../assets/fonts/sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf")
+      format("truetype");
 }
 
 @font-face {
-    font-family: 'SF UI Text';
-    src: url('../../assets/fonts/SF-UI-Text-Light.otf');
-    src: local('SF UI Text'), url('../../assets/fonts/SF-UI-Text-Light.otf') format('otf'), url('../../assets/fonts/SF-UI-Text-Light.otf') format('truetype');
+  font-family: "SF UI Text";
+  src: url("../../assets/fonts/SF-UI-Text-Light.otf");
+  src: local("SF UI Text"),
+    url("../../assets/fonts/SF-UI-Text-Light.otf") format("otf"),
+    url("../../assets/fonts/SF-UI-Text-Light.otf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Myriad Pro Regular';
-    src: url('../../assets/fonts/MyriadPro-Regular.otf');
-    src: local('Myriad Pro Regular'), url('../../assets/fonts/MyriadPro-Regular.otf') format('otf'), url('../../assets/fonts/MyriadPro-Regular.otf') format('truetype');
+  font-family: "Myriad Pro Regular";
+  src: url("../../assets/fonts/MyriadPro-Regular.otf");
+  src: local("Myriad Pro Regular"),
+    url("../../assets/fonts/MyriadPro-Regular.otf") format("otf"),
+    url("../../assets/fonts/MyriadPro-Regular.otf") format("truetype");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 
 html,
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1,
@@ -74,133 +107,133 @@ h2,
 h3,
 h4,
 h6 {
-    line-height: normal;
-    font-family: "Avenir";
-    color: #000
+  line-height: normal;
+  font-family: "Avenir";
+  color: #000;
 }
 span,
-p, li {
-    line-height: normal;
-    font-family: 'Avenir';
+p,
+li {
+  line-height: normal;
+  font-family: "Avenir";
 }
 @-webkit-keyframes zoomin {
-    0% {}
-    100% {
-        -webkit-transform: scale(1.1);
-    }
+  0% {
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+  }
 }
 .closevideo:focus {
-    outline: none !important;
+  outline: none !important;
 }
-
 
 .modal-backdrop.in {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 .modal.in .modal-dialog {
-    width: 100% !important;
-    margin: 0;
+  width: 100% !important;
+  margin: 0;
 }
 @media (min-width: 340px) and (max-width: 425px) {
-    .modal.in .modal-dialog {
-        width: auto !important;
-    }
-    .modal-body[_ngcontent-c1] {
-        width: 100% !important;
-    }
+  .modal.in .modal-dialog {
+    width: auto !important;
+  }
+  .modal-body[_ngcontent-c1] {
+    width: 100% !important;
+  }
 }
 @media (min-width: 426px) and (max-width: 1024px) {
-    .modal.in .modal-dialog {
-        width: auto !important;
-    }
-    .modal-body[_ngcontent-c1] {
-        width: 100% !important;
-    }
+  .modal.in .modal-dialog {
+    width: auto !important;
+  }
+  .modal-body[_ngcontent-c1] {
+    width: 100% !important;
+  }
 }
 
 .modal-body .close {
-    font-size: 60px !important;
-    color: white !important;
-    opacity: 1 !important;
-    outline: none;
-    transition: transform ease-out .2s, -webkit-transform ease-out .2s;
-    transform: rotate(0);
+  font-size: 60px !important;
+  color: white !important;
+  opacity: 1 !important;
+  outline: none;
+  transition: transform ease-out 0.2s, -webkit-transform ease-out 0.2s;
+  transform: rotate(0);
 }
 
 .modal-body .close:hover {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .modal-content {
-    background: transparent !important;
-    box-shadow: none;
-    border: none;
+  background: transparent !important;
+  box-shadow: none;
+  border: none;
 }
 .modal-header {
-    border: none;
+  border: none;
 }
 .modal-body p {
-    text-align: center;
-    color: white;
-    opacity: 1;
-    margin: none;
+  text-align: center;
+  color: white;
+  opacity: 1;
+  margin: none;
 }
 .modal-body form {
-    text-align: center;
+  text-align: center;
 }
 .modal-body form input {
-    width: 75%;
-    height: 70px;
-    background: transparent;
-    color: white;
-    opacity: 1;
-    border: none;
-    /* border-bottom: 2px solid; */
-    margin: 6px 0 0 0;
-    outline: none;
-    font-size: 30px;
-    box-shadow: 0 3px 0 0 rgba(255, 255, 255, .1);
-    background: url("/assets/website/images/search-icon.png") no-repeat;
-    background-position: right center;
-    caret-color: #d6d6d6;
-    cursor: auto
+  width: 75%;
+  height: 70px;
+  background: transparent;
+  color: white;
+  opacity: 1;
+  border: none;
+  /* border-bottom: 2px solid; */
+  margin: 6px 0 0 0;
+  outline: none;
+  font-size: 30px;
+  box-shadow: 0 3px 0 0 rgba(255, 255, 255, 0.1);
+  background: url("/assets/website/images/search-icon.png") no-repeat;
+  background-position: right center;
+  caret-color: #d6d6d6;
+  cursor: auto;
 }
-#home_page{
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: 10%;
-    position: relative;
-  }
+#home_page {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 10%;
+  position: relative;
+}
 
 @keyframes blink {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
-
 
 .homerequest_demo .contact-form textarea:focus {
-    outline: none;
+  outline: none;
 }
 .homerequest_demo .contact-form textarea {
-    color: #888a8f !important;
+  color: #888a8f !important;
 }
 
 .homerequest_demo .contact-form {
-    border: none !important;
+  border: none !important;
 }
 
-@media (min-width:320px) and (max-width:767px) {
-    .sticky-menu{
-        top: 50px !important;
-    }
+@media (min-width: 320px) and (max-width: 767px) {
+  .sticky-menu {
+    top: 50px !important;
+  }
 }
 @media (min-width: 320px) and (max-width: 425px) {
-    .bookademo button {
-        display: none;
-    }
+  .bookademo button {
+    display: none;
+  }
 }
