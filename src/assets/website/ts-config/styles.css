@@ -1,50 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet');
 @font-face {
-  font-family: 'Avenir';
-  src: url('/assets/website/fonts/Avenir/avenir-light-webfont.woff2') format('woff2'), url('./assets/fonts/Avenir/avenir-light-webfont.woff') format('woff');
+  font-family: "Avenir";
+  src: url("/assets/website/fonts/Avenir/avenir-light-webfont.woff2")
+      format("woff2"),
+    url("./assets/fonts/Avenir/avenir-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('/assets/website/fonts/fontawesome/fontawesome-webfont.woff2') format('woff2'), url('./assets/fonts/fontawesome/fontawesome-webfont.woff') format('woff');
+  font-family: "FontAwesome";
+  src: url("/assets/website/fonts/fontawesome/fontawesome-webfont.woff2")
+      format("woff2"),
+    url("./assets/fonts/fontawesome/fontawesome-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'AbsolutProCond-Light';
-  src: url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.woff') format('woff'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.svg#AbsolutProCond-Light') format('svg'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot?#iefix') format('embedded-opentype');
+  font-family: "AbsolutProCond-Light";
+  src: url("/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.woff")
+      format("woff"),
+    url("./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.svg#AbsolutProCond-Light")
+      format("svg"),
+    url("./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot"),
+    url("./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot?#iefix")
+      format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'AbsolutProCond-Light';
-  src: url('/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.woff') format('woff'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.svg#AbsolutProCond-Light') format('svg'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot'), url('./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot?#iefix') format('embedded-opentype');
+  font-family: "AbsolutProCond-Light";
+  src: url("/assets/website/fonts/absoluteprocons/AbsolutProCond-Light.ttf.woff")
+      format("woff"),
+    url("./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.svg#AbsolutProCond-Light")
+      format("svg"),
+    url("./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot"),
+    url("./assets/fonts/absoluteprocons/AbsolutProCond-Light.ttf.eot?#iefix")
+      format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'AbsolutProCond-Bold';
-  src: url('/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.woff') format('woff'), url('./assets/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.svg#AbsolutProCond-Bold') format('svg'), url('./assets/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.eot'), url('./assets/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.eot?#iefix') format('embedded-opentype');
+  font-family: "AbsolutProCond-Bold";
+  src: url("/assets/website/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.woff")
+      format("woff"),
+    url("./assets/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.svg#AbsolutProCond-Bold")
+      format("svg"),
+    url("./assets/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.eot"),
+    url("./assets/fonts/absoluteproconsbold/AbsolutProCond-Bold.ttf.eot?#iefix")
+      format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'impactreg';
-  src: url('/assets/website/fonts/impactreg/impactreg.eot');
-  src: local('impactreg'), url('./assets/fonts/impactreg/impactreg.woff') format('woff'), url('./assets/fonts/impactreg/impactreg.ttf') format('truetype');
+  font-family: "impactreg";
+  src: url("/assets/website/fonts/impactreg/impactreg.eot");
+  src: local("impactreg"),
+    url("./assets/fonts/impactreg/impactreg.woff") format("woff"),
+    url("./assets/fonts/impactreg/impactreg.ttf") format("truetype");
 }
 
 .fontimpact {
-  font-family: 'impactreg' !important;
+  font-family: "impactreg" !important;
 }
 
 .font-family-menu {
@@ -66,7 +90,7 @@ h6 {
   line-height: normal;
   overflow-x: hidden;
   font-family: "Avenir";
-  color: #000
+  color: #000;
 }
 
 h1 {
@@ -82,7 +106,7 @@ h2 {
 span,
 p {
   line-height: normal;
-  font-family: 'Avenir';
+  font-family: "Avenir";
 }
 
 h5.AbsolutProCond-Light {
@@ -139,7 +163,7 @@ h5.AbsolutProCond-Light {
 .home-contactus h4 a {
   text-decoration: none;
 }
-.video_logo{
+.video_logo {
   width: 10%;
 }
 .search-icon img {
@@ -150,7 +174,7 @@ h5.AbsolutProCond-Light {
 }
 
 .footer-links h4 {
-  font-family: 'Avenir';
+  font-family: "Avenir";
   color: #9ca3a9;
   font-size: 15px;
 }
@@ -187,29 +211,27 @@ h5.AbsolutProCond-Light {
 }
 
 @-webkit-keyframes zoomin {
-  0% {}
+  0% {
+  }
 
   100% {
     -webkit-transform: scale(1.1);
   }
 }
 
-
-@media (min-width: 340px) and (max-width: 425px){
-  .modal.in .modal-dialog{
+@media (min-width: 340px) and (max-width: 425px) {
+  .modal.in .modal-dialog {
     width: auto !important;
   }
   .modal-body[_ngcontent-c1] {
-    width:100% !important;
+    width: 100% !important;
+  }
 }
-
-}
-@media (min-width: 426px) and (max-width: 1024px){
- .modal.in .modal-dialog{
+@media (min-width: 426px) and (max-width: 1024px) {
+  .modal.in .modal-dialog {
     width: auto !important;
   }
   .modal-body[_ngcontent-c1] {
-    width:100% !important;
-}
-
+    width: 100% !important;
+  }
 }
