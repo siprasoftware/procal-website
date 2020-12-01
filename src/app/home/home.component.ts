@@ -242,14 +242,14 @@ export class HomeComponent implements OnInit, OnDestroy {
     $(window).scroll(function () {
       var scroll = $(window).scrollTop()
       if (scroll >= 1100) {
-        $.each(document.querySelectorAll(".svgpath"), function (
-          index,
-          ele: any
-        ) {
-          if (ele) {
-            $(this).addClass("svganimate")
+        $.each(
+          document.querySelectorAll(".svgpath"),
+          function (index, ele: any) {
+            if (ele) {
+              $(this).addClass("svganimate")
+            }
           }
-        })
+        )
       } else {
         $("#svgpath").removeClass("svganimate")
       }

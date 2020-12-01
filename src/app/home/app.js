@@ -5236,70 +5236,70 @@ function serviceText(a) {
         })
       },
     }),
-    la.each({ scrollLeft: "pageXOffset", scrollTop: "pageYOffset" }, function (
-      a,
-      b
-    ) {
-      var c = "pageYOffset" === b
-      la.fn[a] = function (d) {
-        return Aa(
-          this,
-          function (a, d, e) {
-            var f = Z(a)
-            return void 0 === e
-              ? f
-                ? f[b]
-                : a[d]
-              : void (f
-                  ? f.scrollTo(c ? f.pageXOffset : e, c ? e : f.pageYOffset)
-                  : (a[d] = e))
-          },
-          a,
-          d,
-          arguments.length
-        )
+    la.each(
+      { scrollLeft: "pageXOffset", scrollTop: "pageYOffset" },
+      function (a, b) {
+        var c = "pageYOffset" === b
+        la.fn[a] = function (d) {
+          return Aa(
+            this,
+            function (a, d, e) {
+              var f = Z(a)
+              return void 0 === e
+                ? f
+                  ? f[b]
+                  : a[d]
+                : void (f
+                    ? f.scrollTo(c ? f.pageXOffset : e, c ? e : f.pageYOffset)
+                    : (a[d] = e))
+            },
+            a,
+            d,
+            arguments.length
+          )
+        }
       }
-    }),
+    ),
     la.each(["top", "left"], function (a, b) {
       la.cssHooks[b] = F(ka.pixelPosition, function (a, c) {
         if (c) return (c = E(a, b)), $a.test(c) ? la(a).position()[b] + "px" : c
       })
     }),
     la.each({ Height: "height", Width: "width" }, function (a, b) {
-      la.each({ padding: "inner" + a, content: b, "": "outer" + a }, function (
-        c,
-        d
-      ) {
-        la.fn[d] = function (e, f) {
-          var g = arguments.length && (c || "boolean" != typeof e),
-            h = c || (!0 === e || !0 === f ? "margin" : "border")
-          return Aa(
-            this,
-            function (b, c, e) {
-              var f
-              return la.isWindow(b)
-                ? 0 === d.indexOf("outer")
-                  ? b["inner" + a]
-                  : b.document.documentElement["client" + a]
-                : 9 === b.nodeType
-                ? ((f = b.documentElement),
-                  Math.max(
-                    b.body["scroll" + a],
-                    f["scroll" + a],
-                    b.body["offset" + a],
-                    f["offset" + a],
-                    f["client" + a]
-                  ))
-                : void 0 === e
-                ? la.css(b, c, h)
-                : la.style(b, c, e, h)
-            },
-            b,
-            g ? e : void 0,
-            g
-          )
+      la.each(
+        { padding: "inner" + a, content: b, "": "outer" + a },
+        function (c, d) {
+          la.fn[d] = function (e, f) {
+            var g = arguments.length && (c || "boolean" != typeof e),
+              h = c || (!0 === e || !0 === f ? "margin" : "border")
+            return Aa(
+              this,
+              function (b, c, e) {
+                var f
+                return la.isWindow(b)
+                  ? 0 === d.indexOf("outer")
+                    ? b["inner" + a]
+                    : b.document.documentElement["client" + a]
+                  : 9 === b.nodeType
+                  ? ((f = b.documentElement),
+                    Math.max(
+                      b.body["scroll" + a],
+                      f["scroll" + a],
+                      b.body["offset" + a],
+                      f["offset" + a],
+                      f["client" + a]
+                    ))
+                  : void 0 === e
+                  ? la.css(b, c, h)
+                  : la.style(b, c, e, h)
+              },
+              b,
+              g ? e : void 0,
+              g
+            )
+          }
         }
-      })
+      )
     }),
     la.fn.extend({
       bind: function (a, b, c) {
@@ -8725,12 +8725,14 @@ function serviceText(a) {
                       .find(".fp-tableCell")
                       .wrapInner('<div class="fp-scrollable" />')
                   : a.wrapInner('<div class="fp-scrollable" />'),
-                a.find(".fp-scrollable").slimScroll({
-                  allowPageScroll: !0,
-                  height: c + "px",
-                  size: "10px",
-                  alwaysVisible: !0,
-                }))
+                a
+                  .find(".fp-scrollable")
+                  .slimScroll({
+                    allowPageScroll: !0,
+                    height: c + "px",
+                    size: "10px",
+                    alwaysVisible: !0,
+                  }))
             : N(a),
           a.css("overflow", "")
       }
@@ -9608,12 +9610,14 @@ function serviceText(a) {
               }
             } else {
               ;(c.height = "auto" == b.height ? r.parent().height() : b.height),
-                (s = a("<div></div>").addClass(c.wrapperClass).css({
-                  position: "relative",
-                  overflow: "hidden",
-                  width: c.width,
-                  height: c.height,
-                })),
+                (s = a("<div></div>")
+                  .addClass(c.wrapperClass)
+                  .css({
+                    position: "relative",
+                    overflow: "hidden",
+                    width: c.width,
+                    height: c.height,
+                  })),
                 r.css({ overflow: "hidden", width: c.width, height: c.height })
               var v = a("<div></div>")
                   .addClass(c.railClass)
@@ -23900,20 +23904,22 @@ if (
         return (a.fn.button = d), this
       }),
       a(document)
-        .on("click.bs.button.data-api", '[data-toggle^="button"]', function (
-          c
-        ) {
-          var d = a(c.target).closest(".btn")
-          b.call(d, "toggle"),
-            a(c.target).is('input[type="radio"], input[type="checkbox"]') ||
-              (c.preventDefault(),
-              d.is("input,button")
-                ? d.trigger("focus")
-                : d
-                    .find("input:visible,button:visible")
-                    .first()
-                    .trigger("focus"))
-        })
+        .on(
+          "click.bs.button.data-api",
+          '[data-toggle^="button"]',
+          function (c) {
+            var d = a(c.target).closest(".btn")
+            b.call(d, "toggle"),
+              a(c.target).is('input[type="radio"], input[type="checkbox"]') ||
+                (c.preventDefault(),
+                d.is("input,button")
+                  ? d.trigger("focus")
+                  : d
+                      .find("input:visible,button:visible")
+                      .first()
+                      .trigger("focus"))
+          }
+        )
         .on(
           "focus.bs.button.data-api blur.bs.button.data-api",
           '[data-toggle^="button"]',
@@ -27309,19 +27315,19 @@ $(document).ready(function () {
       (z.fontface = function () {
         var a
         return (
-          E('@font-face {font-family:"font";src:url("https://")}', function (
-            c,
-            d
-          ) {
-            var e = b.getElementById("smodernizr"),
-              f = e.sheet || e.styleSheet,
-              g = f
-                ? f.cssRules && f.cssRules[0]
-                  ? f.cssRules[0].cssText
-                  : f.cssText || ""
-                : ""
-            a = /src/i.test(g) && 0 === g.indexOf(d.split(" ")[0])
-          }),
+          E(
+            '@font-face {font-family:"font";src:url("https://")}',
+            function (c, d) {
+              var e = b.getElementById("smodernizr"),
+                f = e.sheet || e.styleSheet,
+                g = f
+                  ? f.cssRules && f.cssRules[0]
+                    ? f.cssRules[0].cssText
+                    : f.cssText || ""
+                  : ""
+              a = /src/i.test(g) && 0 === g.indexOf(d.split(" ")[0])
+            }
+          ),
           a
         )
       }),

@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script");
 @font-face {
   font-family: "Avenir";
@@ -92,8 +93,6 @@
     url("../../assets/fonts/MyriadPro-Regular.otf") format("otf"),
     url("../../assets/fonts/MyriadPro-Regular.otf") format("truetype");
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 
 html,
 body {
