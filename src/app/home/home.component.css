@@ -673,7 +673,8 @@ a {
   margin: 0;
 }
 .flip-icon{
-  transform: rotateY(180deg);
+  display: block;
+  margin: 0 auto;
 }
 
 @keyframes animate {
