@@ -140,7 +140,7 @@ video::-webkit-media-controls-panel {
   opacity: 1 !important;
 }
 .clients {
-  padding: 96px 0px;
+  padding: 96px 0px 0px 0px;
 }
 .clients h2 {
   font-size: 36px;
@@ -261,7 +261,7 @@ video::-webkit-media-controls-panel {
 }
 .home_services {
   text-align: center;
-  padding: 96px 0;
+  padding: 96px 0 0px 0;
 }
 .home_services h2 {
   color: #000;
