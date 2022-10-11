@@ -1,0 +1,32 @@
+.background {
+  display: flex;
+  background: linear-gradient(
+    to right bottom,
+    rgb(70, 51, 148),
+    rgb(53, 122, 171),
+    rgb(92, 230, 205)
+  );
+  margin: 0;
+  padding: 100px 10px;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 0.8rem;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.page h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 auto 3rem auto;
+}
+
+.page ol {
+  padding: 8px;
+}

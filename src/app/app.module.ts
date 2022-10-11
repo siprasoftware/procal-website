@@ -13,6 +13,8 @@ import { SweetAlert2Module } from "@toverux/ngx-sweetalert2"
 import { BookademomailerService } from "./bookademo/bookademomailer.service"
 
 import { HomeComponent } from "./home/home.component"
+import { PrivacyComponent } from "./privacy/privacy.component"
+import { TermsComponent } from "./terms/terms.component"
 import { DataService } from "./data.service"
 import { HeaderComponent } from "./header/header.component"
 import { FooterComponent } from "./footer/footer.component"
@@ -22,6 +24,8 @@ import { BookademoComponent } from "./bookademo/bookademo.component"
   declarations: [
     AppComponent,
     HomeComponent,
+    TermsComponent,
+    PrivacyComponent,
     HeaderComponent,
     FooterComponent,
     BookademoComponent,
