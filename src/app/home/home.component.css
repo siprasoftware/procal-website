@@ -33,7 +33,12 @@ ul li {
   padding-bottom: 20px;
 }
 .entertainment_content button:hover {
-  background: #1984c6;
+  background: linear-gradient(
+    to right bottom,
+    rgb(70, 51, 148),
+    rgb(53, 122, 171),
+    rgb(92, 230, 205)
+  );
   color: #fff !important;
   border: none;
 }
@@ -47,7 +52,12 @@ ul li {
   color: #fff !important;
 }
 .entertainment_content button a:hover {
-  background: #1984c6;
+  background: linear-gradient(
+    to right bottom,
+    rgb(70, 51, 148),
+    rgb(53, 122, 171),
+    rgb(92, 230, 205)
+  );
   color: #fff !important;
   border: none;
   text-decoration: none;
@@ -82,7 +92,7 @@ video::-webkit-media-controls-panel {
 }
 
 .homerequest_demo .demosend:hover {
-  background-color: #1a84c6 !important;
+  background-color: #357aab !important;
 }
 
 .videoclose button :hover {
@@ -146,13 +156,13 @@ video::-webkit-media-controls-panel {
   font-size: 36px;
   font-weight: bold;
   text-transform: uppercase;
-  color: rgb(224, 103, 48);
+  color: #be1e68;
 }
 .clients hr {
   margin-bottom: 50px;
 }
 .submit-btn {
-  background-color: #e06730;
+  background-color: #be1e68;
   border: none;
   border-radius: initial;
   color: #fff;
@@ -174,7 +184,12 @@ video::-webkit-media-controls-panel {
 
 .entertainment_section {
   padding: 150px 0 60px 0;
-  background: #1a84c6;
+  background: linear-gradient(
+    to right bottom,
+    rgb(70, 51, 148),
+    rgb(53, 122, 171),
+    rgb(92, 230, 205)
+  );
   display: flex;
   height: calc(110vh - 0px);
   justify-content: center;
@@ -336,7 +351,7 @@ video::-webkit-media-controls-panel {
 
 .homerequest_demo .demosend {
   padding: 10px 45px !important;
-  background-color: #e06730 !important;
+  background-color: #be1e68 !important;
   border: none !important;
   margin: 16px 0 0 0;
 }
@@ -350,7 +365,11 @@ video::-webkit-media-controls-panel {
 }
 
 .home_footer {
-  background-color: #1383c6;
+  background: linear-gradient(
+    to right bottom,
+    rgb(53, 122, 171),
+    rgb(92, 230, 205)
+  );
   padding: 25px 0px 15px 0px;
 }
 
@@ -361,7 +380,7 @@ video::-webkit-media-controls-panel {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   padding: 10px 20px 7px 20px;
-  background-color: #e06730;
+  background-color: #be1e68;
   border: none;
   z-index: 999;
   color: white;
@@ -374,7 +393,12 @@ video::-webkit-media-controls-panel {
 
 .demosend {
   padding: 10px 22px 10px 22px;
-  background: #1a84c6;
+  background: linear-gradient(
+    to right bottom,
+    rgb(70, 51, 148),
+    rgb(53, 122, 171),
+    rgb(92, 230, 205)
+  );
   color: white;
   border: 1px solid black;
   font-weight: bold;
@@ -461,7 +485,7 @@ video::-webkit-media-controls-panel {
   font-family: "SF UI Display";
 }
 .license-section {
-  background: rgb(224, 103, 48);
+  background: rgb(70, 51, 148);
 }
 .license-section h5 {
   color: white;
@@ -654,25 +678,25 @@ a {
 .counter {
   padding: 96px 0px;
 }
-.counter .count{
-  color: #1a84c6;
+.counter .count {
+  color: #357aab;
   font-size: 46px;
   font-weight: bold;
 }
-.counter .description{
+.counter .description {
   margin-bottom: 15px;
 }
-.primary-o{
-  color: #1a84c6;
+.primary-o {
+  color: #357aab;
 }
 .title-measure {
-  color: #e06730;
+  color: #be1e68;
   text-align: center;
   font-size: 36px;
   font-weight: bold;
   margin: 0;
 }
-.flip-icon{
+.flip-icon {
   display: block;
   margin: 0 auto;
 }
